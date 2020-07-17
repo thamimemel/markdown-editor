@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "markdown-editor",
+  "name": "Markdown Editor",
   "icons": [
     {
       "src": "favicon.ico",

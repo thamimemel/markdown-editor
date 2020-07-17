@@ -1,0 +1,35 @@
+.black-bg {
+  background-color: #000;
+  color: #fff;
+}
+
+.settings-close-button {
+  text-align: right;
+}
+
+.close-settings {
+  cursor: pointer;
+}
+
+.settings h4 {
+  margin-top: 20px;
+}
+
+input[type="radio"] {
+  /* Double-sized Checkboxes */
+  transform: scale(1.5);
+  -ms-transform: scale(1.5); /* IE */
+  -moz-transform: scale(1.5); /* FF */
+  -webkit-transform: scale(1.5); /* Safari and Chrome */
+  -o-transform: scale(1.5); /* Opera */
+  padding: 10px;
+}
+input[type="radio"]:after {
+  border: 10px solid white;
+}
+.form-check {
+  margin-top: 5px;
+  label {
+    margin-left: 5px;
+  }
+}

@@ -1,0 +1,31 @@
+@import "./components/editor";
+@import "./components/preview";
+@import "./components/settings";
+
+.fill {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.flex-container {
+  display: flex;
+  height: 100%;
+}
+
+.flex-element {
+  width: 50%;
+  height: 100%;
+}
+
+#fileInput {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  .flex-element {
+    width: 100%;
+  }
+}
