@@ -3,7 +3,7 @@ import { Navbar, Nav, Button, DropdownButton, Dropdown } from "react-bootstrap";
 import SettingsIcon from "@material-ui/icons/Settings";
 
 const ActionsBar = (props) => (
-  <Navbar bg="dark" variant="dark">
+  <Navbar bg="dark" variant="dark" fixed="top">
     <Nav className="mr-auto">
       <DropdownButton id="export-button" title="Export" variant="dark">
         <Dropdown.Item onClick={() => props.handleExport("html")}>

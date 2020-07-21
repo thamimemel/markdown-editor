@@ -23,6 +23,7 @@ input[type="radio"] {
   -webkit-transform: scale(1.5); /* Safari and Chrome */
   -o-transform: scale(1.5); /* Opera */
   padding: 10px;
+  cursor: pointer;
 }
 input[type="radio"]:after {
   border: 10px solid white;

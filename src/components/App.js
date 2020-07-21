@@ -147,7 +147,7 @@ class App extends React.Component {
   };
 
   render = () => (
-    <div>
+    <div className="fill">
       {!this.state.settingsOpen && (
         <div className="fill animate__animated animate__fadeIn">
           <Modal
@@ -175,7 +175,7 @@ class App extends React.Component {
             handleOpenSettings={this.handleOpenSettings}
             handleClear={this.handleClear}
           />
-          <div className="flex-container ">
+          <div className="flex-container">
             <Editor
               handleEditorChange={this.handleEditorChange}
               editorText={this.props.editorText}

@@ -12,17 +12,17 @@ class Editor extends React.Component {
 
   render() {
     return (
-      <textarea
-        id="editor"
-        style={{ fontSize: this.props.fontSize }}
-        className={
-          "editor flex-element " +
-          (this.props.darkMode ? "editor-dark" : "editor-light")
-        }
-        onChange={this.props.handleEditorChange}
-        onKeyUp={this.handleAutoSave}
-        value={this.props.editorText}
-      ></textarea>
+      <div className="flex-element">
+        <textarea
+          style={{ fontSize: this.props.fontSize }}
+          className={
+            "editor " + (this.props.darkMode ? "editor-dark" : "editor-light")
+          }
+          onChange={this.props.handleEditorChange}
+          onKeyUp={this.handleAutoSave}
+          value={this.props.editorText}
+        ></textarea>
+      </div>
     );
   }
 }

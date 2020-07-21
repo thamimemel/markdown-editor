@@ -2,8 +2,18 @@
 @import "./components/preview";
 @import "./components/settings";
 
+body {
+  overflow: hidden;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
 .fill {
-  height: 100vh;
+  height: 100%;
   overflow: hidden;
 }
 
@@ -27,5 +37,8 @@
   }
   .flex-element {
     width: 100%;
+  }
+  .editor {
+    border-right: none;
   }
 }
