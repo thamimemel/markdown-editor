@@ -20,6 +20,10 @@ body {
 .flex-container {
   display: flex;
   height: 100%;
+  // i don't know why the hell it does, but this fixes the long text pasting bug
+  position: fixed;
+  top: 55px;
+  width: 100%;
 }
 
 .flex-element {
