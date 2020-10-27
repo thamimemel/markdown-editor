@@ -2,4 +2,4 @@ FreeCodeCamp.org Project
 
 Markdown Editor
 
-Live Preview : https://thamimemel.github.io/markdown-editor/
+Live Preview : https://yrkan.github.io/markdown-editor/
